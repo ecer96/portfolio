@@ -1,6 +1,7 @@
 import React from "react";
 import { MyCard } from "./MyCard";
 import "../Styles/Home.css";
+import { NavLink } from "react-router-dom";
 
 export const Home = () => {
     return (
@@ -31,7 +32,7 @@ export const Home = () => {
                 ></path>
             </svg>
 
-            <a  className=".eventoBtn font-Monserrat z-10 absolute bottom-0 left-2/4 xsm:left-1/2    mb-4 animate-bounce " href="projects"><img src={require('../Assets/caret-abajo.png')} alt='imagen-flecha' className="h-5"/></a>
+            <NavLink  className=".eventoBtn font-Monserrat z-10 absolute bottom-0 left-2/4 xsm:left-1/2    mb-4 animate-bounce " to="projects"><img src={require('../Assets/caret-abajo.png')} alt='imagen-flecha' className="h-5"/></NavLink>
         
             
         </div>

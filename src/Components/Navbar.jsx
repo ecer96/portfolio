@@ -8,7 +8,7 @@ export const Navbar = () => {
             <div>
                 
             <NavLink
-                to="/"
+                to="/portfolio"
                 className=" flex items-center  mt-2 ml-5  font-Monserrat text-xs  sm:text-sm  md:text-base lg:text-lg xl:text-xl 2xl:text-2xl z-10"
             >
                <img

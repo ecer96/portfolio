@@ -2,7 +2,7 @@ import React from "react";
 
 export const MyCard = () => {
     return (
-        <div className="flex items-center justify-center   mt-8 ml-4 xsm:justify-center xsm:mt-12 sm:justify-center sm:mt-12   md:w-2/5  md:justify-start    2xl:w-80 ">
+        <div className="flex items-center justify-center   mt-8 ml-4 xsm:justify-center xsm:mt-4 sm:justify-center sm:mt-12   md:w-2/5  md:justify-start    2xl:w-80 ">
             <div className=" ml-2 align-middle w-full xl:w-full">
                 <div className="flex justify-center z-10">
                     <img
