@@ -39,6 +39,16 @@ export const Projects = () => {
                     </a>
                 </div>
 
+                <div className="flex hover:scale-125 ">
+                    <a href="https://ecer96.github.io/app-calculo-almacen/">
+                        <img
+                            src={require("../Assets/calculo.png")}
+                            alt="page-1"
+                            className="h-44 bg-cover md:h-52 lg:h-64 xl:h-72 2xl:h-80"
+                        ></img>
+                    </a>
+                </div>
+
             </div>
         </div>
     );
