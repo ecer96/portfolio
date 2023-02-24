@@ -8,7 +8,7 @@ import { Contact } from "./Components/Contact";
 
 function App() {
     return (
-        <div className="App bg-neutral-100">
+        <div className="App bg-white">
           
             <Navbar/>
                 <Routes>

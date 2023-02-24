@@ -2,17 +2,17 @@ import React from "react";
 
 export const MyCard = () => {
     return (
-        <div className="flex items-center justify-center   mt-8 ml-4 xsm:justify-center xsm:mt-4 sm:justify-center sm:mt-12   md:w-2/5  md:justify-start    2xl:w-80 ">
-            <div className=" ml-2 align-middle w-full xl:w-full">
+        <div className="flex items-center justify-center mt-8  ml-4 sm:mt-20 ">
+            <div className=" ">
                 <div className="flex justify-center z-10">
                     <img
                         src={require("../Assets/yo2.jpg")}
                         alt="mi-imagen"
-                        className="rounded-full w-36 h-32 object-cover"
+                        className="rounded-full w-36 h-32 object-cover sm:h-48 sm:w-48"
                     />
                 </div>
                 
-                <h4 className="font-Monserrat text-center mt-4  xsm:text-base  sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl font-bold">
+                <h4 className="font-Monserrat  font-bold flex justify-center my-2 sm:text-xl sm:mb-4">
                  
                  
                     Edwin Cervantes
